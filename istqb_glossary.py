@@ -23,5 +23,7 @@ for i in range(567):
     definition = driver.find_elements(By.TAG_NAME, 'p')[i+3].text
     text += word + '\n' + definition + '\n' + '\n'
 
+# this is sample change
+
 with open('ISTQB Glossary.txt', 'w') as file:
     file.write(text)
